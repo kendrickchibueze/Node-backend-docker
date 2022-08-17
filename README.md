@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # School Management System
 A Full stack MERN website for school management  where admin can create students, delete student details in the student portal.
@@ -43,8 +42,6 @@ npm run dev
 
 The environment variables contains node developement environment, MONGO_URI and PORT number
 
-
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -115,4 +112,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 2dd17cd009b8e5a093b69aa25b5418f371b5c8c0
+
