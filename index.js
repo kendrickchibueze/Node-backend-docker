@@ -19,13 +19,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
-
-app.use('/students', studentRoute)
-
-
-
-
-
+app.use('/students', studentRoute);
 app.listen(port, ()=> console.log(`Server started on port ${port}`))
 
 

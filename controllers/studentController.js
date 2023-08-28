@@ -1,17 +1,15 @@
 
 const Student = require('../models/studentModel')
 
-
-
-
-
 //@desc  Get students
 //@routes  GET /students
 //@access  Private
 
+const canSeeMe = (req, res) => {
+    res.send("<h2>I am  learning how to build containers from image and you !!!</h2>");
+};
 const getStudents  = async (req, res) =>{
         try {
-
          const allStudents =  await Student.find()
          res.status(200).json(allStudents)
 
@@ -54,5 +52,6 @@ const deleteStudent  = async(req, res) =>{
 module.exports = {
     getStudents,
     createStudent,
-    deleteStudent
+    deleteStudent,
+    canSeeMe
 }
